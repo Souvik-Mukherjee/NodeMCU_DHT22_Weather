@@ -15,8 +15,8 @@ int lcdRows = 2;
 LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);*/
 String apiKey = "A0KNVOD7Z40KONL3";     //  Enter your Write API key from ThingSpeak
 
-const char *ssid =  "NETWORK FOR MY HOME";     // replace with your wifi ssid and wpa2 key
-const char *pass =  "raja9988";
+const char *ssid =  "";     // replace with your wifi ssid and wpa2 key
+const char *pass =  "";
 const char* server = "api.thingspeak.com";
 
 #define DHTPIN 14          //pin where the dht22 is connected
